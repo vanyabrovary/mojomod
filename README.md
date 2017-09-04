@@ -21,9 +21,7 @@ cpan
 From github:
 <pre>git clone https://github.com/vanyabrovary/mojomod.git /var/www/Web</pre>
 
-## Configure
-
-### Apache
+## Configure Apache
 
 Add this line to apache conf file:
 <pre>Include /var/www/Web/etc/apache2.conf</pre>
