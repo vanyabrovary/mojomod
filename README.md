@@ -4,7 +4,7 @@
 
 * Unix, Linux, Mac, Mac Server, Windows systems as long as perl is available.
 * Perl > 5.20
-* Apache 2.4 / mod_perl 2.0.9
+* Apache 2.4 / mod_perl 2.0.9 with mpm_prefork_module 
 
 ## Installing
 
@@ -24,7 +24,7 @@ From github:
 ## Configure Apache
 
 Add this line to apache conf file:
-<pre>Include /var/www/Web/etc/apache2.conf</pre>
+<pre>Include /var/www/Web/etc/host.conf</pre>
 
 Restart apache
 <pre>apache2ctl restart</pre>
@@ -36,3 +36,8 @@ Apache error logs.
 
 Mojo error logs.
 <pre>tail -f /var/www/Web/log/error.log</pre>
+
+
+Aapache config file example:
+<pre>/var/www/Web/etc/apache2.conf</pre>
+

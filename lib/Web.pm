@@ -1,6 +1,7 @@
 package Web;
 
-use latest;
+use warnings;
+use strict;
 
 use Mojo::Base 'Mojolicious';
 
